@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <link href="google.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="link">
+      <a href="google.html">Google Search</a>
+    </nav>
+    <form
+      class="ad1"
+      action="https://www.google.com/search?as_q=&as_epq=&as_oq=%2&as_eq=&as_nlo=&as_nhi="
+    >
+      <p class="pages">find pages with.....</p>
+      <p class="a2">all these words:&nbsp; <input type="text" name="as_q" /></p>
+      <br />
+      <p class="a2">
+        this exact word or phrase:&nbsp;
+        <input type="text" name="as_epq" />
+      </p>
+      <br />
+      <p class="a2">
+        any of these words:&nbsp;<input type="text" name="as_oq" name="as_eq" />
+      </p>
+      <br />
+      <p class="a2">
+        none of this words:&nbsp;<input
+          type="text"
+          name="as_nlo"
+        />&nbsp;to&nbsp;<input type="text" name="as_nhi" />
+      </p>
+      <br />
+      <input type="submit" value="Advanced Search" class="adb" />
+    </form>
+  </body>
+</html>
